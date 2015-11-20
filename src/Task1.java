@@ -7,15 +7,10 @@ public class Task1 {
         System.out.println("Enter number: ");
         int x = sc.nextInt();
 
-
-        if (x >= 9 && x <= 18)
-        {
+        if (x >= 9 && x <= 18) {
             System.out.println("I am working");
-        }
-
-        else {
+        } else {
             System.out.println("I am at home");
         }
     }
-
 }
