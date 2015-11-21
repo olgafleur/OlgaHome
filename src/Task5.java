@@ -9,20 +9,12 @@ public class Task5 {
         int y = sc.nextInt();
 
 
-        if (x > y )
-        {
+        if (x > y) {
             System.out.println(x - y);
         }
-
-        if (y > x)
-        {
-            System.out.println(x+=y);
+        else if (y > x) {
+            System.out.println(x += y);
         }
-
-        else {
-            System.out.println(" ");
-        }
-
     }
 }
- 
+
